@@ -28,7 +28,7 @@ public class jwsFinal {
         //object required jwsheader builder to firstly process the algo, find the keyid and then build it
         //object required payload; the message you want to show with the jws object
 
-        //Searializing all of this in a rather compact form
+        //Serializing all of this in a rather compact form
         String kek = fn.serialize();
         System.out.println(kek);
 
